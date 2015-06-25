@@ -17,7 +17,9 @@ It will let to provide parallel game sessions for multiple pairs of players.
 
 After starting, this application will public such web-services:
 Get current game state (show game board):
+
 http://localhost:8080/gravahal/game
 
 Make next turn:
+
 http://localhost:8080/gravahal/turn?pitIndex=<integer_pit_index_to_pick_from>
