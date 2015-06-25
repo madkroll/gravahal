@@ -14,3 +14,10 @@ As future features I see:
 - use RESTful web-services and request/poll to them using JSON as DTO objects
 - move GameSession from singleton scope, use session or prototype instead.
 It will let to provide parallel game sessions for multiple pairs of players.
+
+After starting, this application will public such web-services:
+1. Get current game state (show game board):
+http://localhost:8080/gravahal/game
+
+2. Make next turn:
+http://localhost:8080/gravahal/turn?pitIndex=<integer_pit_index_to_pick_from>
