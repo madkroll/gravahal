@@ -22,4 +22,4 @@ http://localhost:8080/gravahal/game
 
 Make next turn:
 
-http://localhost:8080/gravahal/turn?pitIndex=<integer_pit_index_to_pick_from>
+http://localhost:8080/gravahal/turn?pitIndex=integer_pit_index_to_pick_from
